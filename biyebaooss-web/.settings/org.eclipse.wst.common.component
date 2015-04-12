@@ -1,38 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="biyebaooss-web">
-		<wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources" />
-		<wb-resource deploy-path="/" source-path="/src/main/webapp"
-			tag="defaultRootSource" />
-		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java" />
-		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources" />
-		<dependent-module archiveName="biyebaooss-facade-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-facade/biyebaooss-facade">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module archiveName="biyebaooss-conf-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-conf/biyebaooss-conf">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module archiveName="biyebaooss-infra-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-infra/biyebaooss-infra">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module archiveName="biyebaooss-core-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-core/biyebaooss-core">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module archiveName="biyebaooss-facade-impl-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib"
-			handle="module:/resource/biyebaooss-facade-impl/biyebaooss-facade-impl">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<dependent-module archiveName="biyebaooss-application-1.0.0-SNAPSHOT.jar"
-			deploy-path="/WEB-INF/lib"
-			handle="module:/resource/biyebaooss-application/biyebaooss-application">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
-		<property name="context-root" value="biyebaooss-web" />
-		<property name="java-output-path" value="/biyebaooss-web/target/classes" />
+		<wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+		<wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="biyebaooss-facade-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-facade/biyebaooss-facade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biyebaooss-conf-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-conf/biyebaooss-conf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biyebaooss-infra-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-infra/biyebaooss-infra">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biyebaooss-core-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-core/biyebaooss-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biyebaooss-facade-impl-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-facade-impl/biyebaooss-facade-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="biyebaooss-application-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/biyebaooss-application/biyebaooss-application">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+		<property name="context-root" value="biyebaooss-web"/>
+		<property name="java-output-path" value="/biyebaooss-web/target/classes"/>
 	</wb-module>
 </project-modules>

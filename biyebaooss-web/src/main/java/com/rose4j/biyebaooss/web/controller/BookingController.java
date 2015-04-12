@@ -66,7 +66,7 @@ public class BookingController {
         	        					idArrs[i] = Long.parseLong(value[i]);
 						        }
         
-        return bookingFacade.checkBooking(idArrs);
+        return bookingFacade.checkBooking(idArrs,"admin");
 	}
 	@ResponseBody
 	@RequestMapping("/get/{id}")
